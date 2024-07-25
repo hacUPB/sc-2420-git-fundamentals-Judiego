@@ -1,0 +1,17 @@
+Archivos y directorios generados por el sistema operativo: Algunos archivos son específicos del sistema operativo y no deben incluirse en el repositorio, como .DS_Store (macOS) y Thumbs.db (Windows).
+
+Archivos y directorios de dependencias: Directorios como node_modules/ (Node.js) y vendor/ (PHP Composer) contienen dependencias externas que pueden reinstalarse usando el archivo de configuración de dependencias (package.json, composer.json).
+
+Archivos de configuración del entorno: Archivos como .env contienen variables de entorno sensibles, como credenciales y configuraciones que varían entre diferentes entornos (desarrollo, producción).
+
+Archivos y directorios de salida de compilación: Directorios como dist/ y build/ contienen archivos generados durante el proceso de compilación y no deben incluirse en el control de versiones.
+
+Archivos de logs: Los archivos de logs (*.log) registran eventos y errores en el proyecto y se generan continuamente, por lo que no deben versionarse.
+
+Archivos temporales y de backup: Archivos temporales (*.tmp) y de backup (*.bak) se generan durante el desarrollo y no deben incluirse en el repositorio.
+
+Archivos específicos de editores y entornos de desarrollo: Directorios y archivos de configuración específicos de editores como .vscode/, .idea/, y archivos de proyectos de Sublime Text (*.sublime-project, *.sublime-workspace) contienen configuraciones personales que no deben compartirse.
+
+Archivos de caché: Archivos y directorios de caché (.cache/, *.cache) se generan para mejorar el rendimiento y no deben incluirse en el repositorio.
+
+Archivos de configuración personal: Archivos de configuración personal (*.local) que no deben compartirse con otros desarrolladores.
