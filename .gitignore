@@ -9,3 +9,16 @@ También debes excluir los archivos de configuración del entorno como .env, que
 Para los directorios de salida de compilación, como dist/ y build/, asegúrate de añadir reglas para ignorarlos. Estos directorios contienen archivos generados durante el proceso de compilación que no necesitan ser versionados, ya que pueden ser regenerados a partir del código fuente.
 
 Los archivos de logs (logs/, *.log) también deben ser excluidos, ya que registran eventos y errores y se generan continuamente. Asimismo, debes ignorar archivos temporales y de backup como tmp/, *.tmp, *.bak y *.swp, que son creados durante el desarrollo y no tienen relevancia para el historial de versiones.
+
+-En un proyecto C, es importante excluir ciertos archivos del control de versiones para mantener el repositorio limpio y enfocado en el código fuente principal. Los archivos binarios y ejecutables, como los archivos objeto (*.o), crean archivos de salida (*.out, *.exe, *.a, *.so, *.dll), porque se crean automáticamente.
+Durante la compilación se puede recrear a partir del código fuente.
+Además, debe excluir los archivos relacionados con la depuración, como la carpeta de símbolos de depuración (*.dSYM/ en macOS), los archivos de bases de datos del programa (*.pdb en Windows) y el archivo de información de depuración (*.idb en Visual Studio).
+. Estos archivos son específicos del entorno de desarrollo y no son requeridos por otros desarrolladores ni por el historial de versiones del proyecto.
+También es importante excluir ciertos archivos y carpetas del entorno de desarrollo, como Visual Studio Code (.vscode/), JetBrains IDE (.idea/) y Sublime Text (*.sublime-project, *.sublime-workspace).
+.
+Ajustes. Estos archivos contienen configuraciones de editor personal que pueden variar entre diferentes desarrolladores y no se comparten.
+Los archivos generados por la herramienta de compilación, como Makefile y CMakeLists.txt, solo deben excluirse si se crearon automáticamente y no se mantienen en el repositorio.
+Además, debe ignorar los archivos de registro (logs/, *.log), los archivos temporales (*.tmp), los archivos de respaldo (*.bak) y los archivos de intercambio de Vim (*.swp, *.swo) al crearlos.
+Durante el desarrollo y no incluye control de versiones.
+Finalmente, también deben excluirse los archivos y directorios de salida como build/, dist/, archivos de configuración personal (*.local) y archivos de caché (.cache/, *.cache). Estos archivos y carpetas están destinados al entorno local del desarrollador o se crean para mejorar el rendimiento, por lo que no es necesario publicarlos ni compartirlos.
+
