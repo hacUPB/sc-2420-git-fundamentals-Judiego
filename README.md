@@ -1,1 +1,2 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/a4G18UV_)
+para clonar un proyecto hay que primero meterse a git hub, entrar al repositorio y donde dice code, darle click y copiar el link que nos da, luego abrir git bash y usar el comando git clone y luego pegar el link, despues meterse al repositorio y hacer los cambios que necesite.
