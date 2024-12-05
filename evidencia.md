@@ -1,0 +1,8 @@
+1. Es esencial en el desarrollo de software moderno debido a su capacidad para gestionar y guardar de forma eficaz los cambios en el código fuente. Esta herramienta permite a los desarrolladores colaborar simultáneamente en el mismo proyecto sin el riesgo de sobrescribir el trabajo de los demás, lo cual es importante para la productividad y el compromiso del equipo. Además, proporciona un registro detallado de todos los cambios, lo que facilita volver a versiones anteriores en caso de errores y ayuda a comprender el progreso del proyecto. La capacidad de diversificarse para desarrollar nuevas funciones o corregir errores por separado garantiza que la versión principal del código permanezca estable.
+2. cd: navegar al directorio home. ls: lista de contenido del directorio. mkdir: crear directorio. cd: meterse a directorio. touch: crear archivo. dwp: ver ruta
+3. Es un repositorio central en el que se almacena todo el código fuente del proyecto, así como el historial de versiones, ramas, etiquetas y otros metadatos necesarios para el control de versiones.
+El repositorio puede residir localmente en su computadora (repositorio local) y/o en un servidor remoto (repositorio remoto) como GitHub.
+
+Se utiliza para mantener un registro detallado de los cambios, facilitar el control de versiones y permitir que varios desarrolladores trabajen simultáneamente en diferentes partes del proyecto.
+Además, admite la integración continua y la implementación automatizada, y proporciona herramientas de gestión de tareas, revisión de código y documentación, lo que garantiza una coordinación efectiva y transparencia entre los miembros del equipo.
+
